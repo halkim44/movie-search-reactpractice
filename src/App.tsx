@@ -8,11 +8,20 @@ function App() {
 
   return (
     <>
+    <div>
+      <h1>Movie search page</h1>
+
+      <div>
+        <input type="text" placeholder='Search Movie..' />
+        <button type='submit'>Search</button>
+      </div>
+    </div>
     {/*
     TODO
 
     LAYOUT
     <title>
+    
     searchbox
     resultsbox
       result-item
